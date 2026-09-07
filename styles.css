@@ -119,9 +119,9 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .top-nav a.active { background: var(--brand-1); color: #fff; }
 .top-nav a.active:hover { background: var(--brand-1); color: #fff; }
 .top-nav .pill {
-  background: var(--org-current, var(--brand-soft));
-  color: var(--org-current, var(--brand-1));
-  border: 1px solid var(--org-current, var(--brand-1));
+  background: var(--brand-1);
+  color: #fff;
+  border: 1px solid var(--brand-1);
 }
 
 /* ---------------------------------------------------------------
@@ -137,10 +137,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .hero .eyebrow {
   display: inline-block; padding: 4px 10px;
   background: var(--brand-soft-2);
-  color: var(--org-current, var(--brand-1));
+  color: var(--brand-1);
   font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
   border-radius: 999px; margin-bottom: 16px;
-  border: 1px solid color-mix(in srgb, var(--org-current, var(--brand-1)) 30%, transparent);
+  border: 1px solid #E9D8A6;
 }
 .hero h1 { font-size: clamp(28px, 3.5vw, 44px); margin-bottom: 12px; }
 .hero .dek { font-size: 18px; color: var(--ink-3); max-width: 60ch; }
